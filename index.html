@@ -7,22 +7,21 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>above root</h1>
     <div id="root">
-        <h3>qwerty</h3>
-        <h3>qwerty</h3>
-        <h3>qwerty</h3>
-        <h3>qwerty</h3>
+        Not rendered
     </div>
-    <h1>after root</h1>
     <!-- <script>
         let txt=document.createElement('h1');
         txt.innerHTML="Hello world!";
         let root=document.getElementById('root');
         root.appendChild(txt);
     </script> -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="./App.js"></script>
+
+    <!-- 
+        After installig react and react-dom ,using npm install cmd ,you no longer need these scripts
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+    -->
+    <script type="module" src="./App.js"></script>
 </body>
 </html> 
